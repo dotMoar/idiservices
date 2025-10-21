@@ -14,3 +14,25 @@
 @theme {
     --font-sans: "Poppins", "Helvetica", sans-serif;
 }
+
+.hero {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  /* Forzamos un contenedor ancho para que haya recorte en X */
+  aspect-ratio: 21 / 9;      /* o usa min-height + media queries */
+}
+
+/* Imagen de fondo con “ancho extra” para que haya material que desplazar */
+.hero__bg {
+  position: absolute;
+  inset: 0;
+  background-image: url("/src/assets/img/simone-hutsch.jpg");
+  background-repeat: no-repeat;
+  background-size: 120% auto;        /* 👈 ancho > 100% para asegurar overflow en X */
+  background-position: 10% 10%;      /* 👈 mueve X acá (primer valor) */
+  transform: scaleX(-1);             /* opcional: mirror */
+}
+
+/* Contenido… */
+.hero__content { position: relative; z-index: 1; }
