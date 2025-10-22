@@ -20,7 +20,7 @@
   width: 100%;
   overflow: hidden;
   /* Forzamos un contenedor ancho para que haya recorte en X */
-  aspect-ratio: 21 / 9;      /* o usa min-height + media queries */
+  min-height: 900px;
 }
 
 /* Imagen de fondo con “ancho extra” para que haya material que desplazar */

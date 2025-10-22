@@ -1,76 +1,137 @@
-<section class="w-full">
-    <div
-        class="flex flex-col md:flex-row items-center justify-between w-full h-auto"
-    >
-        <!-- Columna de texto -->
-        <div class="md:w-1/2">
-            <h2 class="text-3xl md:text-4xl font-bold mb-6">
-                Beneficios y Características
-            </h2>
-            <p class="text-lg mb-8">
-                Descubre cómo nuestros servicios pueden impulsar el crecimiento
-                y la eficiencia de tu empresa.
-            </p>
+<section class="w-full py-20 bg-transparent">
+  <div class="container mx-auto flex flex-col md:flex-row items-center gap-12 px-6">
+    <!-- Texto -->
+    <div class="md:w-1/2 space-y-6">
+      <h2 class="text-4xl font-bold text-[var(--color-main,#1E3A8A)]">
+        Beneficios y Características
+      </h2>
+      <p class="text-lg text-gray-700 leading-relaxed">
+        En <strong>IDI Services</strong> te acompañamos con soluciones contables, tributarias y administrativas que garantizan eficiencia, cumplimiento y confianza en cada gestión.
+      </p>
 
-            <ul class="space-y-6">
-                <li class="flex items-start gap-4">
-                    <div
-                        class="flex-shrink-0 w-10 h-10 text-background flex items-center justify-center rounded-full font-bold"
-                    >
-                        1
-                    </div>
-                    <div>
-                        <h3 class="text-xl font-semibold">
-                            Innovación Constante
-                        </h3>
-                        <p class="">
-                            Implementamos tecnología de última generación para
-                            mantenerte siempre a la vanguardia.
-                        </p>
-                    </div>
-                </li>
-
-                <li class="flex items-start gap-4">
-                    <div
-                        class="flex-shrink-0 w-10 h-10 text-background flex items-center justify-center rounded-full font-bold"
-                    >
-                        2
-                    </div>
-                    <div>
-                        <h3 class="text-xl font-semibold">Soporte Dedicado</h3>
-                        <p class="">
-                            Nuestro equipo está disponible para resolver tus
-                            dudas y brindarte acompañamiento continuo.
-                        </p>
-                    </div>
-                </li>
-
-                <li class="flex items-start gap-4">
-                    <div
-                        class="flex-shrink-0 w-10 h-10 text-background flex items-center justify-center rounded-full font-bold"
-                    >
-                        3
-                    </div>
-                    <div>
-                        <h3 class="text-xl font-semibold">
-                            Resultados Medibles
-                        </h3>
-                        <p class="">
-                            Cada solución está diseñada para generar impacto
-                            real y crecimiento sostenible.
-                        </p>
-                    </div>
-                </li>
-            </ul>
+      <div class="space-y-8">
+        <div class="flex gap-6">
+          <span class="text-4xl font-extrabold text-[var(--color-secondary,#FBBF24)]">01</span>
+          <div>
+            <h3 class="text-xl font-semibold text-gray-900">Gestión Contable Completa</h3>
+            <p class="text-gray-600">Balances, renta empresarial, declaraciones juradas y administración de sueldos y honorarios.</p>
+          </div>
         </div>
-
-        <!-- Columna de imagen -->
-        <div class="md:w-1/2">
-            <img
-                src="https://placehold.co/600x400?font=roboto"
-                alt="Imagen de beneficios"
-                class="w-full h-auto object-cover rounded-lg shadow-md"
-            />
+        <div class="flex gap-6">
+          <span class="text-4xl font-extrabold text-[var(--color-secondary,#FBBF24)]">02</span>
+          <div>
+            <h3 class="text-xl font-semibold text-gray-900">Dirección y Representación Tributaria</h3>
+            <p class="text-gray-600">Representación ante el SII, dirección tributaria y asesoría continua.</p>
+          </div>
         </div>
+        <div class="flex gap-6">
+          <span class="text-4xl font-extrabold text-[var(--color-secondary,#FBBF24)]">03</span>
+          <div>
+            <h3 class="text-xl font-semibold text-gray-900">Recursos Humanos</h3>
+            <p class="text-gray-600">Liquidaciones, contratos, finiquitos y licencias médicas online.</p>
+          </div>
+        </div>
+      </div>
     </div>
+
+    <!-- Imagen -->
+    <div class="md:w-1/2">
+      <img
+        src=" /src/assets/img/image1.webp"
+        alt="Equipo de profesionales"
+        class="w-full h-auto rounded-2xl object-cover shadow-xl"
+      />
+    </div>
+  </div>
 </section>
+
+<section class="w-full py-20 bg-transparent">
+  <div class="container mx-auto px-6">
+    <h2 class="text-4xl font-bold text-center text-[var(--color-main,#1E3A8A)] mb-10">
+      Beneficios y Características
+    </h2>
+
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div class="overflow-hidden rounded-2xl shadow-lg border border-gray-200 hover:scale-[1.02] transition-transform bg-white/70 backdrop-blur">
+        <img
+          src="/src/assets/img/image1.webp"
+          alt="Gestión Contable"
+          class="w-full h-40 object-cover"
+        />
+        <div class="p-6">
+          <h3 class="text-xl font-semibold text-[var(--color-main,#1E3A8A)] mb-2">Gestión Contable Completa</h3>
+          <p class="text-gray-600 text-sm">IVA, balances, renta, declaraciones juradas y sueldos.</p>
+        </div>
+      </div>
+
+      <div class="overflow-hidden rounded-2xl shadow-lg border border-gray-200 hover:scale-[1.02] transition-transform bg-white/70 backdrop-blur">
+        <img
+          src="https://images.unsplash.com/photo-1600880292089-90a7e086ee0c?auto=format&fit=crop&w=600&q=60"
+          alt="Dirección Tributaria"
+          class="w-full h-40 object-cover"
+        />
+        <div class="p-6">
+          <h3 class="text-xl font-semibold text-[var(--color-main,#1E3A8A)] mb-2">Dirección Tributaria</h3>
+          <p class="text-gray-600 text-sm">Representación legal ante el SII y defensa fiscal.</p>
+        </div>
+      </div>
+
+      <div class="overflow-hidden rounded-2xl shadow-lg border border-gray-200 hover:scale-[1.02] transition-transform bg-white/70 backdrop-blur">
+        <img
+          src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=600&q=60"
+          alt="Recursos Humanos"
+          class="w-full h-40 object-cover"
+        />
+        <div class="p-6">
+          <h3 class="text-xl font-semibold text-[var(--color-main,#1E3A8A)] mb-2">Recursos Humanos</h3>
+          <p class="text-gray-600 text-sm">Contratos, licencias médicas y gestión laboral.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="relative py-24 bg-transparent overflow-hidden">
+  <div class="container mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+    <!-- Imagen a la izquierda, parcialmente fuera -->
+    <div class="relative">
+      <div class="absolute -top-10 -left-10 w-72 h-72 bg-[var(--color-secondary,#FBBF24)] rounded-full opacity-20 blur-2xl"></div>
+      <img
+        src=" /src/assets/img/image1.webp"
+        alt="Profesionales de IDI Services trabajando"
+        class="relative rounded-2xl shadow-2xl object-cover w-full h-auto"
+      />
+    </div>
+
+    <!-- Texto -->
+    <div class="space-y-6">
+      <h2 class="text-4xl font-bold text-[var(--color-main,#1E3A8A)] leading-tight">
+        Beneficios y Características
+      </h2>
+      <p class="text-lg text-gray-700">
+        Nuestros servicios combinan experiencia, tecnología y compromiso para
+        entregar soluciones que fortalecen el crecimiento de tu empresa.
+      </p>
+      <ul class="space-y-4">
+        <li class="flex items-center gap-3">
+          <span class="text-[var(--color-secondary,#FBBF24)] font-bold text-2xl">•</span>
+          <span class="text-gray-800">Contabilidad integral y planificación tributaria.</span>
+        </li>
+        <li class="flex items-center gap-3">
+          <span class="text-[var(--color-secondary,#FBBF24)] font-bold text-2xl">•</span>
+          <span class="text-gray-800">Dirección tributaria y representación legal.</span>
+        </li>
+        <li class="flex items-center gap-3">
+          <span class="text-[var(--color-secondary,#FBBF24)] font-bold text-2xl">•</span>
+          <span class="text-gray-800">Gestión de RRHH, licencias, contratos y finiquitos.</span>
+        </li>
+        <li class="flex items-center gap-3">
+          <span class="text-[var(--color-secondary,#FBBF24)] font-bold text-2xl">•</span>
+          <span class="text-gray-800">Auditorías y certificaciones CORFO.</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
